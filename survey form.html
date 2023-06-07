@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="form">
+
+        <div class="form-control">
+            <label for ="name" id="label-name">
+                NAME
+            </label>
+        
+
+        <input type="text"
+          id="name"
+          placeholder="Enter your name"/> 
+         </div>
+
+         <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+         <input type="email" id="email" placeholder="enter your email">
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+            <input type="text" id="age" placeholder="Enter your age">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Whic role describes you?
+            </label>
+
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Others</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Would you recommend our site to others</label>
+            <label for="recommend-1">
+                <input type="radio" id="recommend-1" name="recommend">YES</input>
+            </label>
+
+            <label for="recommend-2">
+                <input type="radio" id="recommend-2" name="recommend">NO</input>
+            </label>
+
+            <label for="recommend-3">
+                <input type="radio" id="recommend-3" name="recommend">MAYBE</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Languages and frameworks that are known to you!!!</label>
+        </div>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">C</input>
+        </label>
+
+        <label for="inp-2">
+            <input type="checkbox" name="inp">C++</input>
+        </label>
+
+        <label for="inp-3">
+            <input type="checkbox" name="inp">Java</input>
+            </label>
+
+            <label for="inp-4">
+                <input type="checkbox" name="inp">C#</input>
+            </label>
+
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Javascript</input>
+            </label>
+
+            <label for="inp-6">
+                <input type="checkbox" name="inp">React js</input>
+            </label>
+
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Node js</input>
+            </label>
+
+            <label for="inp-8">
+                <input type="checkbox" name="inp">Mongo DB</input>
+            </label>
+
+            <label for="inp-9">
+                <input type="checkbox" name="inp">HTML & CSS</input>
+            </label>
+
+            <label for="inp-10">
+                <input type="checkbox" name="inp">Solidity</input>
+            </label>
+
+            <label for="inp-11">
+                <input type="checkbox" name="inp">Rust</input>
+            </label>
+
+            <label for="inp-12">
+                <input type="checkbox" name="inp">Django</input>
+            </label>
+
+            <label for="inp-13">
+                <input type="checkbox" name="inp">spring</input>
+            </label>
+
+            <label for="inp-14">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+
+            <label for="inp-15">
+                <input type="checkbox" name="inp">Kotlin</input>
+            </label>
+
+            <div class="form-control">
+                <label for="comments">Any comments for suggestion</label>
+          
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+
+        </div>
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
